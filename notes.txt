@@ -1,0 +1,9 @@
+acquire hace un lock, quiere decir que bloquea el recurso asociado para que otro hilo o proceso no pueda acceder a el
+lo utilizo para hacer el lock de la conexion a la cual accedo para hacer la query 
+async es programacion asincrona, esto hace que cuando se ejecuta no se bloquee todo el codigo mientras se ejecuta
+tampoco se ejecuta inmediatamente, sino que devuelve un objeto llamado corutina que puede ser esperado o se ejecuta mas tarde
+await se utiliza dentro de funciones marcadas con async para esperar el resultado de otra corutina o una operación asíncrona. 
+Cuando el programa encuentra await, puede pausar la ejecución de la función actual y permitir que otras tareas se ejecuten mientras espera el resultado
+Puedes realizar múltiples tareas al mismo tiempo sin bloquear el flujo del programa
+con with procuramos que esas conexiones que obtenemos sean correctamente cerradas dsp de su uso
+usando jwt, en el payload no poner data sensible
