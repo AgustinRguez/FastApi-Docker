@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: 36025147
       POSTGRES_DB: fastapi
     volumes:
-      - postgres_data:/var/lib/postgresql/postgres_data
+      - postgres_data:/var/lib/postgresql/data
     ports:
       - "5433:5432"
   web:
